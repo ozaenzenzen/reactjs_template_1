@@ -46,7 +46,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 md:pt-20 pt-32">
+        <div className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 md:pt-20 pt-32" id="about">
           <div className="box md:order-1 order-2">
             <img
               src={AboutImage}
@@ -74,7 +74,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="services pt-32">
+        <div className="services pt-32" id="services">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
             Layanan
           </h1>
@@ -113,7 +113,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="proyek pt-32">
+        <div className="proyek pt-32" id="proyek">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
             Proyek
           </h1>
