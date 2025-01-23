@@ -1,4 +1,5 @@
 import HeroImage from "../assets/images/hero.svg";
+import AboutImage from "../assets/images/about.svg";
 
 const HomePage = () => {
   return (
@@ -35,6 +36,30 @@ const HomePage = () => {
               alt="Hero Image"
               className="md:w-full w-[400px] mx-auto md:m-0"
             />
+          </div>
+        </div>
+
+        <div className="about grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32">
+          <div className="box">
+            <img src={AboutImage} alt="About Image"/>
+          </div>
+          <div className="box">
+            <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
+              Belajar Membuat Website Dengan{" "}
+              <span className="font-bold text-sky-400 underline">
+                {" "}
+                Tailwind CSS
+              </span>
+            </h1>
+            <p className="text-base/loose">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
         </div>
       </div>
