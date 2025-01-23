@@ -39,9 +39,13 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="about grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32">
+        <div className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 md:pt-20 pt-32">
           <div className="box md:order-1 order-2">
-            <img src={AboutImage} alt="About Image"  className="lg:w-[500px] w-[400px] md:m-0 mx-auto"/>
+            <img
+              src={AboutImage}
+              alt="About Image"
+              className="lg:w-[500px] w-[400px] md:m-0 mx-auto"
+            />
           </div>
           <div className="box md:order-2 order-1">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
@@ -60,6 +64,35 @@ const HomePage = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+          </div>
+        </div>
+
+        <div className="services pt-32">
+          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
+            Layanan
+          </h1>
+          <p className="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div className="services-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 ">
+            <div className="box bg-sky-400 rounded-sm shadow p-4">
+              <i className="ri-number-1 text-3xl text-white"></i>
+              <h3 className="text-xl font-bold text-white mt-6 mb-2">
+                Service Name
+              </h3>
+              <p className="text-white text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            <div className="box bg-sky-400 rounded-sm shadow p-4">
+              <i className="ri-number-2 text-3xl text-white"></i>
+              <h3 className="text-xl font-bold text-white mt-6 mb-2">Service Name</h3>
+              <p className="text-white text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+            <div className="box bg-sky-400 rounded-sm shadow p-4">
+              <i className="ri-number-3 text-3xl text-white"></i>
+              <h3 className="text-xl font-bold text-white mt-6 mb-2">Service Name</h3>
+              <p className="text-white text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
           </div>
         </div>
       </div>
