@@ -40,10 +40,10 @@ const HomePage = () => {
         </div>
 
         <div className="about grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-20 pt-32">
-          <div className="box">
-            <img src={AboutImage} alt="About Image"/>
+          <div className="box md:order-1 order-2">
+            <img src={AboutImage} alt="About Image"  className="lg:w-[500px] w-[400px] md:m-0 mx-auto"/>
           </div>
-          <div className="box">
+          <div className="box md:order-2 order-1">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
               Belajar Membuat Website Dengan{" "}
               <span className="font-bold text-sky-400 underline">
