@@ -1,6 +1,13 @@
 import HeroImage from "../assets/images/hero.svg";
 import AboutImage from "../assets/images/about.svg";
 
+import Proyek1 from "../assets/images/proyek-1.webp";
+import Proyek2 from "../assets/images/proyek-2.webp";
+import Proyek3 from "../assets/images/proyek-3.webp";
+import Proyek4 from "../assets/images/proyek-4.webp";
+import Proyek5 from "../assets/images/proyek-5.webp";
+import HomeProyekComponent from "../components/HomeProyekComponent";
+
 const HomePage = () => {
   return (
     <div className="homepage pb-10">
@@ -81,18 +88,70 @@ const HomePage = () => {
               <h3 className="text-xl font-bold text-white mt-6 mb-2">
                 Service Name
               </h3>
-              <p className="text-white text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <p className="text-white text-base/loose">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
+              </p>
             </div>
             <div className="box bg-sky-400 rounded-sm shadow p-4">
               <i className="ri-number-2 text-3xl text-white"></i>
-              <h3 className="text-xl font-bold text-white mt-6 mb-2">Service Name</h3>
-              <p className="text-white text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <h3 className="text-xl font-bold text-white mt-6 mb-2">
+                Service Name
+              </h3>
+              <p className="text-white text-base/loose">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
+              </p>
             </div>
             <div className="box bg-sky-400 rounded-sm shadow p-4">
               <i className="ri-number-3 text-3xl text-white"></i>
-              <h3 className="text-xl font-bold text-white mt-6 mb-2">Service Name</h3>
-              <p className="text-white text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <h3 className="text-xl font-bold text-white mt-6 mb-2">
+                Service Name
+              </h3>
+              <p className="text-white text-base/loose">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
+              </p>
             </div>
+          </div>
+        </div>
+
+        <div className="proyek pt-32">
+          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">
+            Proyek
+          </h1>
+          <p className="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div className="proyek-box pt-12 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 ">
+            <HomeProyekComponent
+              imageSrc={Proyek1}
+              title="Proyek Name 1"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
+            <HomeProyekComponent
+              imageSrc={Proyek2}
+              title="Proyek Name 2"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
+            <HomeProyekComponent
+              imageSrc={Proyek3}
+              title="Proyek Name 3"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
+            <HomeProyekComponent
+              imageSrc={Proyek4}
+              title="Proyek Name 4"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
+            <HomeProyekComponent
+              imageSrc={Proyek5}
+              title="Proyek Name 5"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
           </div>
         </div>
       </div>
